@@ -1,3 +1,7 @@
+package Marco1.Atividade1;
+
+import Marco1.Atividade1.PontoCartesiano;
+
 public class Main {
     public static void main(String[] args) {
 
