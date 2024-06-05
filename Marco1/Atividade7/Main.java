@@ -2,7 +2,7 @@ package Marco1.Atividade7;
 import java.util.Random;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         Vetor vetorNumeros = new Vetor();
         Random numeroRandomico = new Random();
@@ -11,7 +11,7 @@ public class Main {
         long tempoIniciado, tempoFinalizado, tempoDeExecucao;
 
         //preenchimento de 1000 slots no vetor com diversos valores
-        for(int i = 0; i < 1000; i++){
+        for (int i = 0; i < 1000; i++) {
             vetorNumeros.adiciona(numeroRandomico.nextInt(2000)); //limitado até o valor 200 para não entrar valores exorbitantes
             numerosTotaisRegistrados++;
         }
@@ -37,4 +37,3 @@ public class Main {
         System.out.println("Tempo de Execução do método iterativo: " + tempoDeExecucao);
     }
 }
-

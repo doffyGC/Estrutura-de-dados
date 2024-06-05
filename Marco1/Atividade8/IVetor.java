@@ -1,4 +1,4 @@
-package Marco1.Atividade7;
+package Marco1.Atividade8;
 
 public interface IVetor {
     public void adiciona(int numero);
