@@ -1,4 +1,4 @@
-package Marco1.Atividade2;
+package Marco1.Atividade10;
 
 public class Aluno {
 

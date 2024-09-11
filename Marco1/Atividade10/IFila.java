@@ -1,4 +1,4 @@
-package Marco1.Atividade9;
+package Marco1.Atividade10;
 
 public interface IFila {
     public boolean add(Object info);

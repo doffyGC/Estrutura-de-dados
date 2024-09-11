@@ -1,16 +1,12 @@
-package Marco1.Atividade9;
+package Marco1.Atividade14;
 
-public class Fila implements IFila{
+import Marco1.Atividade9.IFila;
 
-    private Object[] vetorObjetos;
-    private int numeroElementos;
-    private int inicio;
+public class Fila implements IFila {
 
-    public Fila (int tamanhoFila) {
-        this.numeroElementos = 0;
-        this.inicio = 0;
-        this.vetorObjetos = new Object[tamanhoFila];
-    }
+    private Object[] vetorObjetos = new Object[10];
+    private int numeroElementos = 0;
+    private int inicio = 0;
     @Override
     public boolean add(Object info) {
 

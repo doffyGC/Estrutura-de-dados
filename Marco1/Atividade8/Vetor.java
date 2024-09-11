@@ -127,7 +127,6 @@ public class Vetor implements IVetor {
             return pesquisaBinariaRec(valorProcurado, slotDoMeio + 1, slotFinal);
         }
     }
-
     public void ordenacaoBolha() {
 
         for (int i = 0; i < totalNumeros; i++) {
@@ -137,7 +136,6 @@ public class Vetor implements IVetor {
                     // Troca arr[j] e arr[j+1]
                     int valorTemporario = numerosAleatorios[j];
                     numerosAleatorios[j] = numerosAleatorios[j + 1];
-                    numerosAleatorios[j + 1] = valorTemporario;
                 }
             }
         }
